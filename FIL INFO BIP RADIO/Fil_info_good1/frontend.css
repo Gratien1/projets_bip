@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.header {
+    background-color: #d32f2f;
+    color: white;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #ecbf11; /* Couleur du sous-titre */
+    margin: 10px 20px;
+    font-style: italic;
+    text-align: center; /* Centrer le sous-titre */
+}
+
+.news-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.timestamp {
+    background-color: #d32f2f;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.content {
+    flex: 1;
+}
+
+.icon {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #eee;
+    font-size: 14px;
+    color: #555;
+}
+
+.footer a {
+    color: #d32f2f;
+    text-decoration: none;
+}
+
+#ajouter-bloc {
+    display: inline-block; /* Pour s'assurer qu'il ressemble à un bouton */
+    background-color: #07c326; /* Couleur de l'arrière-plan */
+    color: white; /* Couleur du texte */
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: background 0.2s ease;
+}
+
+#ajouter-bloc:hover {
+    background-color: #059a20; /* Couleur au survol */
+}
